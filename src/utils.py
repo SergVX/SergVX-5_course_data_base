@@ -1,6 +1,3 @@
-import psycopg2
-
-
 def get_formatted_vacancy(data) -> list:
     """Принимает данные и форматирует"""
     all_vacancies = []

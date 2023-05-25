@@ -105,7 +105,4 @@ class HH_api(All_api):
             data['alternate_url'] = jsObj['alternate_url']
             data['open_vacancies'] = jsObj['open_vacancies']
 
-            with open('test_company_info.json', 'w', encoding='utf-8') as f:
-                json.dump(data, f, ensure_ascii=False, indent=4)
-
-            return data
+        return data
